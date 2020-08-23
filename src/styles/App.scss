@@ -1,0 +1,9 @@
+.App {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+  > div:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
