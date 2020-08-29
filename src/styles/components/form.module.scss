@@ -1,0 +1,31 @@
+.form {
+  padding: 16px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, minmax(200px, max-content));
+  justify-content: center;
+  grid-row-gap: 20px;
+  font-size: 16px;
+
+  &__group {
+    // padding: ;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    text-transform: uppercase;
+  }
+
+  &__input {
+    font-size: inherit;
+    display: grid;
+    width: 380px;
+    padding: 7px 5px;
+  }
+
+  &__error {
+    color: red;
+    border-color: red;
+  }
+}

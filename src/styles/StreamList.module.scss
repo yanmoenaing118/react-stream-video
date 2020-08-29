@@ -1,0 +1,28 @@
+.StreamList {
+  padding: 26px 5px;
+  margin-top: 16px;
+}
+
+.StreamItem {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 2.5px 1px rgba(0, 0, 0, 0.3);
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__settings {
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  &__btn {
+    margin: 5px;
+  }
+}
